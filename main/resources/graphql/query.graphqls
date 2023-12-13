@@ -1,0 +1,8 @@
+# All available queries on this graphql server
+
+
+type Query{
+getProduct(id:Int): Product
+}
+
+

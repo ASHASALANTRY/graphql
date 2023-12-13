@@ -1,0 +1,2 @@
+type Mutation{
+createProduct(product: CreateProductInput): Product }

@@ -1,0 +1,11 @@
+input CreateProductInput{
+productId:Int
+name:String
+price:Float
+brand: Brand
+}
+type Brand{
+brandId: Int;
+name: String
+products: [Product]
+}
